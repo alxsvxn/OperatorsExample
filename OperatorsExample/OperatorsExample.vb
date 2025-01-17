@@ -32,10 +32,21 @@ Module OperatorsExample
         Console.WriteLine(5 \ 3) 'Print the quotient
         Console.WriteLine()
 
-        'modulus operator
+        'Modulus operator
         Console.Write("5 mod 3 = ") 'Prints a string of characters between the quotations
         Console.WriteLine(5 Mod 3) 'print the remainder
         Console.WriteLine()
+
+        'Exponent operator
+        Console.Write("5 ^ 3 = ") 'Prints a string of characters between the quotations
+        Console.WriteLine(5 ^ 3) 'print the exponent
+        Console.WriteLine()
+
+        'Concatenation operator
+        Console.Write("5" & " " & "+" & " 3" & " = " & "8") 'Prints a string of characters between the quotations
+        Console.WriteLine()
+        Console.WriteLine("Wake Up" & vbNewLine & "[Happy Emoji & Sad Emoji]") 'vbnewline is a variable that creates a new line and carriage return
+
     End Sub
 
 End Module
