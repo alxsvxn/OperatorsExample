@@ -33,7 +33,7 @@ Module OperatorsExample
         Console.WriteLine()
 
         'modulus operator
-        Console.WriteLine("5 mod 3 = ") 'Prints a string of characters between the quotations
+        Console.Write("5 mod 3 = ") 'Prints a string of characters between the quotations
         Console.WriteLine(5 Mod 3) 'print the remainder
         Console.WriteLine()
     End Sub
