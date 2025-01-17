@@ -22,9 +22,15 @@ Module OperatorsExample
         Console.WriteLine(5 * 3) 'Print the product
         Console.WriteLine()
 
-        'Division Operator
-        Console.Write("5 / 3 = ") 'Prints a string of characters in between the quotations
-        Console.WriteLine(5 / 3) 'Print the quotient
+        'Integer division Operator
+        Console.Write("5 \ 3 = ") 'Prints a string of characters in between the quotations
+        Console.WriteLine(5 \ 3) 'Print the quotient
+
+        'Integer division Operator
+        Console.Write("5 \ 3 = ") 'Prints a string of characters in between the quotations
+        Console.WriteLine(5 \ 3) 'Print the quotient
+
+        'modulus operator
 
     End Sub
 
