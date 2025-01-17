@@ -23,12 +23,14 @@ Module OperatorsExample
         Console.WriteLine()
 
         'Floating Point division Operator
-        Console.Write("5 \ 3 = ") 'Prints a string of characters in between the quotations
-        Console.WriteLine(5 \ 3) 'Print the floating point quotient
+        Console.Write("5 / 3 = ") 'Prints a string of characters in between the quotations
+        Console.WriteLine(5 / 3) 'Print the floating point quotient
+        Console.WriteLine()
 
         'Integer division Operator
         Console.Write("5 \ 3 = ") 'Prints a string of characters in between the quotations
         Console.WriteLine(5 \ 3) 'Print the quotient
+        Console.WriteLine()
 
         'modulus operator
         Console.WriteLine("5 mod 3 = ") 'Prints a string of characters between the quotations
