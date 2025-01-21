@@ -4,6 +4,8 @@
 'OperatorExample
 'https://github.com/alxsvxn/OperatorsExample.git
 
+Option Compare Binary
+
 Module OperatorsExample
 
     Sub Main()
@@ -46,7 +48,33 @@ Module OperatorsExample
         Console.Write("5" & " " & "+" & " 3" & " = " & "8") 'Prints a string of characters between the quotations
         Console.WriteLine()
         Console.WriteLine("Wake Up" & vbNewLine & "[Happy Emoji & Sad Emoji]") 'vbnewline is a variable that creates a new line and carriage return
+        Console.WriteLine()
+        'By clicking next in the grey bar next to the numbers we can insert a breakpoint for debugging
 
+        'Comparison Operators
+        Console.Write("5 > 3 = ") 'Prints a string of characters between the quotations
+        Console.WriteLine(5 > 3) 'Prints the comparison expression(T/F)
+        Console.WriteLine()
+
+        Console.Write("5 < 3 = ") 'Prints a string of characters between the quotations
+        Console.WriteLine(5 < 3) 'Prints the comparison expression(T/F)
+        Console.WriteLine()
+
+        Console.Write("Does 5 = 3 ? ") 'Prints a string of characters between the quotations
+        Console.WriteLine(5 = 3) 'Prints the comparison expression(T/F)
+        Console.WriteLine()
+
+        Console.Write("Is 5 not equal to 3 ? ") 'Prints a string of characters between the quotations
+        Console.WriteLine(5 <> 3) 'Prints the comparison expression(T/F)
+        Console.WriteLine()
+
+        Console.Write("A > B = ") 'Prints a string of characters between the quotations
+        Console.WriteLine("A" > "B") 'Prints the comparison expression(T/F)
+        Console.WriteLine()
+
+        Console.Write("Is A the same as a ? ") 'Prints a string of characters between the quotations
+        Console.WriteLine("A" = "a") 'Prints the comparison expression(T/F)
+        Console.WriteLine()
     End Sub
 
 End Module
